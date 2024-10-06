@@ -122,7 +122,7 @@
                 <div>
                     <ul>
                         <li>
-                            <p><strong>Implementaci&oacute;n de Clases Base:</strong> Los estudiantes deber&aacute;n codificar en el lenguaje de programaci&oacute;n indicado las clases Empleado, Departamento, y ReporteDesempe&ntilde;o, asegur&aacute;ndose de aplicar principios de POO como encapsulamiento, herencia, y polimorfismo.</p>
+                            <p><strong>Implementaci&oacute;n de Clases Base:</strong> Los estudiantes deber&aacute;n codificar en el lenguaje de programaci&oacute;n indicado las clases IUDIGITAL.Empleado, IUDIGITAL.Departamento, y ReporteDesempe&ntilde;o, asegur&aacute;ndose de aplicar principios de POO como encapsulamiento, herencia, y polimorfismo.</p>
                         </li>
                         <li>
                             <p><strong>M&eacute;todos y Constructores:</strong> Implementar m&eacute;todos y constructores necesarios para la creaci&oacute;n y manipulaci&oacute;n de los objetos del sistema.</p>
