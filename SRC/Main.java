@@ -84,7 +84,12 @@ public class Main extends JFrame {
         if (tipo.equalsIgnoreCase("Permanente")) {
             String beneficios = JOptionPane.showInputDialog(this, "Beneficios:");
             double salarioBase = Double.parseDouble(JOptionPane.showInputDialog(this, "Salario Base:"));
-            empleados.add(new EmpleadoPermanente(id, nombre, edad, sexo, fechaContratacion, beneficios, salarioBase));
+            empleados.add(new EmpleadoPermanente(id, nombre, edad, sexo, fechaContratacion, beneficios, salarioBase) {
+                @Override
+                public void mostrarDetalles() {
+
+                }
+            });
         } else {
             String fechaFinalContrato = JOptionPane.showInputDialog(this, "Fecha Final de Contrato:");
             double tasaPorHora = Double.parseDouble(JOptionPane.showInputDialog(this, "Tasa por Hora:"));
