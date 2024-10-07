@@ -1,6 +1,6 @@
 import javax.swing.JTextArea;
 
-public class EmpleadoTemporal {
+public class EmpleadoTemporal extends Empleado {
     private String fechaFinalContrato;
     private double tasaPorHora;
 
